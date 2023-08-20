@@ -1,0 +1,10 @@
+__pycache__
+data.csv
+**/data
+**/sorted_data
+*/data/
+*/sorted_data/
+pyinstaller
+data
+sorted_data
+build

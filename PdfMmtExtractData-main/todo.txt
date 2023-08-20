@@ -1,0 +1,21 @@
+Still HERE ===================================
+
+
+IMPORTANT IMPORTANT IMPORTANT IMPORTANT
+
+TODO LAST : MAKE PROMPTS
+BUG #1 : when multiple same ID => ask to review that, only the last one is written down
+
+NOT IMPORTANT NOT IMPORTANT NOT IMPORTANT NOT IMPORTANT
+
+BUG #3 : double measurements
+
+
+FIXED =====================
+
+
+BUG #2 : Loc 186 not geeting written down (is it bc of th fact that there a two line on mesurement or because of the model that doesn't have it : conduct some tests to figure out)
+BUG #2 note : en effet, extract_tables() fonctionne mais n'extrait pas tout, il faut utiliser find_tables() et et faire . extract pour chaque table !
+BUG #4 : stops at 15 columns .. => please make sure to use the right model
+
+clean gather code into function
