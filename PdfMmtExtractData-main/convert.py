@@ -3,5 +3,5 @@ def toCsv(data : list) -> None:
     with open("data.csv", "w+") as csvFile:
         for line in data:
             #get a nice string
-            line = line.join(";")
+            line = ";".join(line)
             csvFile.write(line)
